@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.nav img{
+    position: relative;
+    height: 100%;
+}
+.nav .contato{
+    width: 40%;
+    display: center;
+    justify-content: space-around;
+    text-align: end;
+}
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 24px;
+}
+.nav .Itens{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 24px;
+    color: antiquewhite;
+}
+.Imagem1 img{
+    width: 100%;
+}
+.menucafé {
+    background-color: rgba(149, 243, 212, 0.386);   
+    text-align: center;
+}
+
+.nav2 {
+    background-color: rgba(149, 243, 212, 0.386);
+    display: flex;
+    text-align: center;
+    justify-items: space-between;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.nav2 img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1%;
+}
